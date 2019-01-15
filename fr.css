@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+  sans-serif;
+  font-size:1.5rem;
+  line-heigt:1.5rem;
+  color:#333;
+  overflow-x:hidden;
+}
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.container{
+  max-width:960px;
+  padding-left:3rem;
+  padding-right:3rem;
+  margin:auto;
+  text-align:center;
+}
+
+.fullscreen-video-wrap{
+  position:fixed;
+  top:-0;
+  left:0;
+  width:20%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap{
+  min-width:100%;
+  min-height:100%;
+  opacity:0.98;
+  background-image: url(image/ins12.jpg);
+}
+
+.header-overly{
+  height:100vh;
+  width:100vw;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+  font-size:90px;
+  color:#DAA520;
+  margin-bottom:0;
+}
+
+header-content p{
+  font-size:1.5rem;
+  display: block;
+  padding-bottom:2rem;
+}
+
+img[alt="inslogo"]{
+  position: absolute;
+  top: 0px;
+  left: 280px;
+  height: 400px;
+  width: 750px;
+}
+
+.btn{
+  position: absolute;
+  border-radius: 30px;
+  left:550px;
+  top: 520px;
+  background:#DAA520;
+  color:#fff;
+  font-size: 1.3rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+}
+
+.section{
+  position: absolute;
+  padding: 20px 0;
+  background-color: white;
+}
+
+
+.section-a{
+  left:0px;
+  width: 1350px;
+}
+
+.section-b{
+  padding: 20px 0;
+  padding-bottom: 17rem;
+  width: 1350px;
+  height: 260px;
+  background-image: url("image/ins12.jpg");
+  color:#fff;
+  left:0px;
+  top: 894px
+}
+
+
+.section-c{
+  position: absolute;
+  top: 1135px;
+  padding: 0px 0;
+  width: 1350px;
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.section-d{
+  position: absolute;
+  top: 22px;
+  right: 3px;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+@media(max-width:960px){
+  .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
+
+img[alt="email"]
+{
+position: absolute;
+top: 118px;
+left: 150px;
+width: 150px;
+height: 60px;
+}
+
+img[alt="phone"]
+{
+position: absolute;
+top: 105px;
+right: 345px;
+}
+
+img[alt="fb"]
+{
+position: absolute;
+top: 178px;
+left: 430px;
+width: 80px;
+height: 60px;
+}
+
+img[alt="insta"]
+{
+position: absolute;
+top: 174px;
+right: 400px;
+width: 60px;
+height: 60px;
+}
+
+img[alt="frlang"]
+{
+  position: absolute;
+  border-radius: 30px;
+  right: 53px;
+  top: 20px;
+  width: 60px;
+  height: 45px;
+}

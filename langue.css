@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  background-image: url("image/ins12.jpg");
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+  sans-serif;
+  font-size:1.5rem;
+  line-heigt:1.5rem;
+  color:#333;
+  overflow-x:hidden;
+  background-position: center;
+}
+
+
+img[alt="en"]{
+  position: absolute;
+  border-radius:20px;
+  top: 200px;
+  left: 170px;
+  height: 120px;
+  width: 200px;
+}
+
+.section-a{
+  position: absolute;
+  top: 300px;
+  left: 245px;
+  font-size: 3rem;
+}
+
+img[alt="fr"]{
+  position: absolute;
+  border-radius:20px;
+  top: 200px;
+  left: 570px;
+  height: 120px;
+  width: 200px;
+}
+
+.section-b{
+  position: absolute;
+  top: 300px;
+  left: 648px;
+  font-size: 3rem;
+}
+
+img[alt="nl"]{
+  position: absolute;
+  border-radius:20px;
+  top: 200px;
+  left: 970px;
+  height: 120px;
+  width: 200px;
+}
+
+.section-c{
+  position: absolute;
+  top: 300px;
+  left: 1045px;
+  font-size: 3rem;
+}
+
+.section-follow{
+  position: absolute;
+  top: 550px;
+  left: 500px;
+  padding: 0px 0;
+  width: 1350px;
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
